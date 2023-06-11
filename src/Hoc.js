@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Hoc = (OriginalComponent) => {
 const NewComponent = () => {
-    const [fontSize, setFontsize] = useState(13);
+    const [fontSize, setFontsize] = useState(18);
 
     const hoverfontSize = () => {
         setFontsize(fontSize+1);
